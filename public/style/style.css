@@ -1,0 +1,12 @@
+.centered {
+  align-self: : center;
+}
+
+iframe {
+  margin-left: 20%;
+  margin-right: 25%;
+  display: inherit;
+}
+.card-image {
+  display: inherit;
+}
