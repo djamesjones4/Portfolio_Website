@@ -1,19 +1,22 @@
 (function() {
-  'use strict';
+  'use strict'
+
   angular.module('app').config(config)
 
-  config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'] // DEPENDENCY INJECTION INTO CONFIG
+// DEPENDENCY INJECTION INTO CONFIG
+  config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider']
+
   function config($stateProvider, $urlRouterProvider, $locationProvider) {
-
-    $locationProvider.html5Mode(true) // Setting clean URLs (no hashtags)
-    $stateProvider // DEFINING ADDITIONAL STATES FOR Single-Page-Application
-
-      .state({ // 1st STATE (on click in this case)
+    // Setting clean URLs (no hashtags)
+    $locationProvider.html5Mode(true)
+    $stateProvider
+    // DEFINING ADDITIONAL STATES FOR Single-Page-Application
+      .state({
         name: 'about',
         url: '/',
         component: 'aboutComponent'
       })
-      .state({ // 2nd STATE (on click in this case)
+      .state({
         name: 'projects',
         url: '/projects/dothasprettycolors',
         component: 'projectsComponent'
@@ -23,6 +26,11 @@
         url: '/projects/gardengrowers',
         component: 'garden'
       })
-
-  } // END CONFIG FUNCTION
+      .state({
+        name: 'doctorsNote',
+        url: '/projects/doctorsnote',
+        component: 'doctorsNote'
+      })
+// END CONFIG FUNCTION
+  }
 })()

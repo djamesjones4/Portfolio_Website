@@ -10,3 +10,13 @@ iframe {
 .card-image {
   display: inherit;
 }
+img {
+  margin-left: 1em;
+  margin-top: 0.15em;
+  margin-bottom: 0.05em;
+  border-style: solid;
+  border-width: thin;
+  border-color: inherit;
+  border-radius: 50%;
+  max-height: 1.75em;
+}

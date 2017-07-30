@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio display applications developed by Derek Jones",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djamesjones4/Portfolio_Website.git"
+  },
+  "author": "Derek Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djamesjones4/Portfolio_Website/issues"
+  },
+  "homepage": "https://github.com/djamesjones4/Portfolio_Website#readme"
+}

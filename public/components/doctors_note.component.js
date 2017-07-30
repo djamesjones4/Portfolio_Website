@@ -2,13 +2,14 @@
   'use strict'
 
   angular.module('app')
-    .component('garden', {
-      templateUrl: '../templates/garden.template.html',
-      controller: GardenController
+    .component('doctorsNote', {
+      templateUrl: '../templates/doctors_note.template.html',
+      controller: DoctorsController
     })
-  GardenController.$inject = ['$state']
+  DoctorsController.$inject = ['$state']
 
-  function GardenController($state) {
+  function DoctorsController($state) {
+    console.log('in dnote controller')
     const vm = this
     vm.$onInit = onInit
     function onInit() {
@@ -23,8 +24,8 @@
     // ALLOWS US TO CHANGE STATES BY BUTTON CLICK
       $state.go('about')
     }
-    function dnote() {
-      $state.go('doctorsNote')
+    function gardern() {
+      $state.go('garden')
     }
   }
   // ^^END CONTROLLER^^
