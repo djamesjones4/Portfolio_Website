@@ -4,7 +4,8 @@
   "description": "A portfolio display applications developed by Derek Jones",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
   },
   "devDependencies": {},
   "scripts": {
