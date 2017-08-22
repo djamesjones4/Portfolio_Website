@@ -1,35 +1,61 @@
-
-
-
-<div class="row">
-    <div class="col s12 m7">
-        <div class="card">
-            <div class="card-image">
-                <iframe class="centered" width="560" height="315" src="https://www.youtube.com/embed/cvUn30U1faM" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="card-content">
-                <span class="card-title">(dot)HasPrettyColors</span>
-                <p>(dot)HasPrettyColors is a front-end web application to assist web developers in creating color schemes for sites.</p>
-            </div>
-            <div class="card-action">
-                <a href="#">Technologies</a>
-            </div>
-            <div>
-              <ul class="collapsible popout" data-collapsible="accordion">
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-              </ul>
-            </div>
-        </div>
+<nav class="nav-extended">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Derek Jones</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a ui-sref="about">About</a></li>
+            <li class="active"><a ui-sref="colors">Projects</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a ui-sref="about">About</a></li>
+            <li class="active"><a ui-sref="colors">Projects</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
     </div>
-</div>
+    <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="" ui-sref="colors">(dot)hasPrettyColors</a></li>
+            <li class="tab"><a ui-sref="garden">Garden Growers</a></li>
+            <li class="tab disabled"><a ui-sref="yoga">Yoga Buddy</a></li>
+            <li class="tab"><a ui-sref="doctorsNote">Doctor</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+  <div class="row">
+      <div class="col s12 m8 offset-m2">
+          <div class="card">
+            <ui-view></ui-view>
+              <!-- <div class="card-image">
+                  <iframe class="centered" width="560" height="315" src="https://www.youtube.com/embed/cvUn30U1faM" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="card-content">
+                  <span class="card-title">(dot)HasPrettyColors</span>
+                  <p>(dot)HasPrettyColors is a front-end web application to assist web developers in creating color schemes for sites.</p>
+              </div>
+              <div class="card-action">
+                  <a href="#">Technologies</a>
+              </div>
+              <div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+                </ul>
+              </div> -->
+          </div>
+      </div>
+  </div>
+
+
+</main>

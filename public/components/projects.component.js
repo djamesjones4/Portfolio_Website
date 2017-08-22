@@ -10,6 +10,7 @@
 
   function ProjectsController($state) {
     const vm = this
+    $(".button-collapse").sideNav()
     vm.$onInit = onInit
     function onInit() {
     }

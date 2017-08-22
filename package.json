@@ -6,6 +6,8 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
+    "start": "nodemon",
+    "nodemon": "node app.js",
     "test": "mocha"
   },
   "repository": {

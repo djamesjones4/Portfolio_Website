@@ -11,6 +11,12 @@
     $locationProvider.html5Mode(true)
     $stateProvider
     // DEFINING ADDITIONAL STATES FOR Single-Page-Application
+      // .state({
+      //   name: 'nav',
+      //   abstract: true,
+      //   url: '/',
+      //   component: 'navComponent'
+      // })
       .state({
         name: 'about',
         url: '/',
@@ -18,18 +24,26 @@
       })
       .state({
         name: 'projects',
-        url: '/projects/dothasprettycolors',
+        abstract: true,
         component: 'projectsComponent'
       })
       .state({
         name: 'garden',
         url: '/projects/gardengrowers',
+        parent: 'projects',
         component: 'garden'
       })
       .state({
         name: 'doctorsNote',
         url: '/projects/doctorsnote',
+        parent: 'projects',
         component: 'doctorsNote'
+      })
+      .state({
+        name: 'colors',
+        url: 'projects/dothasprettycolors',
+        parent: 'projects',
+        component: 'colors'
       })
 // END CONFIG FUNCTION
   }
