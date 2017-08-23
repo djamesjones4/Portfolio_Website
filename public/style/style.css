@@ -27,6 +27,7 @@ iframe {
   margin-top: 25% !important;
 }
 nav {
+  z-index: 1;
   position: fixed !important;
   background-color: #009688;
 }
@@ -41,5 +42,13 @@ img {
   max-height: 1.75em;
 }
 body {
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
+}
+.aboutNav {
+  display: inline !important;
+  position: fixed !important;
+  margin-bottom: 40%;
+}
+main {
+  z-index: 3;
 }
