@@ -17,7 +17,7 @@
 
     function projects() {
     // ALLOWS US TO CHANGE STATES BY BUTTON CLICK
-      $state.go('projects')
+      $state.go('colors')
     }
 
     function about() {

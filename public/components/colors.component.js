@@ -7,9 +7,10 @@
       controller: ColorsController
     })
   ColorsController.$inject = ['$state']
+
   function ColorsController($state) {
-    let vm = this
-    vm.onInit = onInit
+    const vm = this
+    vm.$onInit = onInit
     function onInit() {
       $state.go('colors')
     }

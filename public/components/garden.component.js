@@ -1,6 +1,6 @@
 (function() {
   'use strict'
-console.log('in garden component')
+
   angular.module('app')
     .component('garden', {
       templateUrl: '../templates/garden.template.html',

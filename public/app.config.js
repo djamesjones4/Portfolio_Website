@@ -41,7 +41,7 @@
       })
       .state({
         name: 'colors',
-        url: 'projects/dothasprettycolors',
+        url: '/projects/dothasprettycolors',
         parent: 'projects',
         component: 'colorsComponent'
       })

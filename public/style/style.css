@@ -16,15 +16,14 @@ iframe {
   height: 100%;
 }
 .projectDescription {
-  /*padding-top: 10%*/
 }
 .card-title {
-  /*padding-top: 30%*/
 }
 .card-image {
-  margin-bottom: auto !important;
-  height: auto !important;
-  /*display: inherit;*/
+  margin-top: 25% !important;
+}
+nav {
+  position: fixed !important;
 }
 img {
   margin-left: 1em;

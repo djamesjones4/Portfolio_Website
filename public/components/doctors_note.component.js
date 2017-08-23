@@ -15,19 +15,6 @@
     function onInit() {
       $state.go('doctorsNote')
     }
-
-    function projects() {
-    // ALLOWS US TO CHANGE STATES BY BUTTON CLICK
-      $state.go('projects')
-    }
-
-    function about() {
-    // ALLOWS US TO CHANGE STATES BY BUTTON CLICK
-      $state.go('about')
-    }
-    function gardern() {
-      $state.go('garden')
-    }
   }
   // ^^END CONTROLLER^^
 })()
