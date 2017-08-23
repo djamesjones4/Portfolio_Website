@@ -43,7 +43,7 @@
         name: 'colors',
         url: 'projects/dothasprettycolors',
         parent: 'projects',
-        component: 'colors'
+        component: 'colorsComponent'
       })
 // END CONFIG FUNCTION
   }

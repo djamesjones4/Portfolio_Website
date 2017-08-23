@@ -12,6 +12,7 @@ console.log('in garden component')
     const vm = this
     vm.$onInit = onInit
     function onInit() {
+      $state.go('garden')
     }
 
     function projects() {

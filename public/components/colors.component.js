@@ -2,7 +2,7 @@
   'use strict'
 
   angular.module('app')
-    .component('colors', {
+    .component('colorsComponent', {
       templateUrl: '../templates/colors.template.html',
       controller: ColorsController
     })
@@ -11,6 +11,7 @@
     let vm = this
     vm.onInit = onInit
     function onInit() {
+      $state.go('colors')
     }
   }
 })()
