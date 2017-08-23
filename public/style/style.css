@@ -1,6 +1,9 @@
 .centered {
   align-self: : center;
 }
+.card {
+  border-radius: 0.5%;
+}
 .iframeContainer {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -9,6 +12,7 @@
 }
 
 iframe {
+  border-radius: 0.5%;
   position: absolute;
   top: 0;
   left: 0;
@@ -24,6 +28,7 @@ iframe {
 }
 nav {
   position: fixed !important;
+  background-color: #009688;
 }
 img {
   margin-left: 1em;
@@ -34,4 +39,7 @@ img {
   border-color: inherit;
   border-radius: 50%;
   max-height: 1.75em;
+}
+body {
+  background-color: #eeeeee;
 }
