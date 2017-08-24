@@ -10,11 +10,18 @@
 
   function ProjectsController($state) {
     const vm = this
+
     $(".button-collapse").sideNav()
     vm.$onInit = onInit
     function onInit() {
     }
 
+    vm.class = "active"
+    function activate() {
+      if (vm.class !== "active") {
+        vm.class === "active"
+      }
+    }
     function projects() {
     // ALLOWS US TO CHANGE STATES BY BUTTON CLICK
       $state.go('colors')

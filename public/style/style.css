@@ -37,6 +37,7 @@ nav {
   z-index: 1;
   position: fixed !important;
   background-color: #009688;
+  opacity: 0.89;
 }
 /*img {
   margin-left: 1em;
