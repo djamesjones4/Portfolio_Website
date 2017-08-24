@@ -45,6 +45,12 @@
         parent: 'projects',
         component: 'colorsComponent'
       })
+      .state({
+        name: 'yoga',
+        url: '/projects/yogabuddy',
+        parent: 'projects',
+        component: 'yogaComponent'
+      })
 // END CONFIG FUNCTION
   }
 })()
