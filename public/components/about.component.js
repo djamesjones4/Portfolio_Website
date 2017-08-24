@@ -12,8 +12,8 @@ console.log("in about component");
   function AboutController($state) {
     const vm = this
     vm.$onInit = onInit
+
     function onInit() {
-      console.log("in AboutController $onInit function");
       $state.go('about')
     }
 
