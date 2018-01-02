@@ -17,11 +17,11 @@
       //   url: '/',
       //   component: 'navComponent'
       // })
-      .state({
-        name: 'about',
-        url: '/',
-        component: 'aboutComponent'
-      })
+      // .state({
+      //   name: 'about',
+      //   url: '/',
+      //   component: 'aboutComponent'
+      // })
       .state({
         name: 'projects',
         abstract: true,
@@ -41,7 +41,7 @@
       })
       .state({
         name: 'colors',
-        url: '/projects/dothasprettycolors',
+        url: '/',
         parent: 'projects',
         component: 'colorsComponent'
       })
