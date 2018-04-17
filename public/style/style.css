@@ -99,3 +99,12 @@ body {
  transform: rotate(90deg);
  transition: transform .2s, -webkit-transform .2s, -ms-transform .2s;
 }
+
+.brand-logo {
+  font-weight: 280;
+}
+.brand-logo.projects {
+  text-align: center !important;
+  align-content: center !important;
+  align-self: center !important;
+}

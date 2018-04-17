@@ -11,21 +11,27 @@
     $locationProvider.html5Mode(true)
     $stateProvider
     // DEFINING ADDITIONAL STATES FOR Single-Page-Application
-      .state({
-        name: 'nav',
-        abstract: true,
-        component: 'navComponent'
-      })
-      .state({
-        name: 'about',
-        url: '/',
-        parent: 'nav',
-        component: 'aboutComponent'
-      })
+      // .state({
+      //   name: 'nav',
+      //   abstract: true,
+      //   component: 'navComponent'
+      // })
+      // .state({
+      //   name: 'about',
+      //   url: '/',
+      //   parent: 'nav',
+      //   component: 'aboutComponent'
+      // })
       .state({
         name: 'projects',
         abstract: true,
         component: 'projectsComponent'
+      })
+      .state({
+        name: 'colors',
+        url: '/',
+        parent: 'projects',
+        component: 'colorsComponent'
       })
       .state({
         name: 'garden',
@@ -38,12 +44,6 @@
         url: '/projects/doctorsnote',
         parent: 'projects',
         component: 'doctorsNote'
-      })
-      .state({
-        name: 'colors',
-        url: '/projects/colors',
-        parent: 'projects',
-        component: 'colorsComponent'
       })
       .state({
         name: 'yoga',
