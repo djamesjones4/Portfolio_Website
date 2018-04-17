@@ -76,3 +76,6 @@ body {
   width: 20em!important;
   /* height: 100% !important; */
 }
+.asterisk {
+  font-size: .75em;
+}
