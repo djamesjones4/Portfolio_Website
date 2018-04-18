@@ -29,7 +29,7 @@
       })
       .state({
         name: 'colors',
-        url: '/',
+        url: '/projects/colors',
         parent: 'projects',
         component: 'colorsComponent'
       })
@@ -47,7 +47,7 @@
       })
       .state({
         name: 'yoga',
-        url: '/projects/yogabuddy',
+        url: '/',
         parent: 'projects',
         component: 'yogaComponent'
       })
